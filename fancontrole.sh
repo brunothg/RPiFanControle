@@ -31,16 +31,16 @@ function restart () {
 }
 
 function install () {
-	log "Install default autostart script (/etc/init.d/fancontrol) - change path if not /home/pi/FanControl"
+	log "Install default autostart script (/etc/init.d/fancontrole) - change path if not /home/pi/FanControle"
 
-	sudo cp "${DIR}/autostart.sh" "/etc/init.d/fancontrol"
-	sudo chmod 755 "/etc/init.d/fancontrol"
-	sudo update-rc.d fancontrol defaults
+	sudo cp "${DIR}/autostart.sh" "/etc/init.d/fancontrole"
+	sudo chmod 755 "/etc/init.d/fancontrole"
+	sudo update-rc.d fancontrole defaults
 }
 
 function uninstall (){
-	sudo update-rc.d fancontrol remove
-	sudo rm "/etc/init.d/fancontrol"
+	sudo update-rc.d fancontrole remove
+	sudo rm "/etc/init.d/fancontrole"
 }
 
 function log () {
