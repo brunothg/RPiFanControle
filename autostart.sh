@@ -12,11 +12,11 @@
 
 
 function start () {
-        /home/pi/FanControl/fancontrole.sh start &
+        /home/pi/FanControle/fancontrole.sh start &
 }
 
 function stop () {
-        /home/pi/FanControl/fancontrole.sh stop
+        /home/pi/FanControle/fancontrole.sh stop
 }
 
 function restart () {
