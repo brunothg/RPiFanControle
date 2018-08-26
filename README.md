@@ -1,5 +1,8 @@
 # RPiFanControle
-Python script for controlling a fan for the Raspberry Pi
+Python script for controlling a fan for the Raspberry Pi.
+The fan speed will be controlled depending on the SoC's temperature.
+All you'll need is a RaspberryPi 3 (other models should work either), a fan and a few electronics.
+
 
 
 ## Installation
@@ -30,4 +33,5 @@ Enable logging
 	
 	
 ## Hardware setup
-Get things wired like it is shown in the circuit diagram
+Get things wired like it is shown in the circuit diagram:
+![see repository -> circuit.png](./circuit.png?raw=true "Circuit")
